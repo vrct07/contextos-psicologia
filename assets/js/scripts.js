@@ -9,7 +9,7 @@ $(document).ready(function(){
         strokeWidth: 8,
         duration: 1400,
         from: { color: '#AAA' },
-        to: { color: '#601F79'},
+        to: { color: '#4e8174'},
 
         step: function(state, circle) {
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
         strokeWidth: 8,
         duration: 1600,
         from: { color: '#AAA' },
-        to: { color: '#601F79'},
+        to: { color: '#4e8174'},
 
         step: function(state, circle) {
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
         strokeWidth: 8,
         duration: 2000,
         from: { color: '#AAA' },
-        to: { color: '#601F79'},
+        to: { color: '#4e8174'},
 
         step: function(state, circle) {
 
@@ -72,7 +72,7 @@ $(document).ready(function(){
         strokeWidth: 8,
         duration: 2200,
         from: { color: '#AAA' },
-        to: { color: '#601F79'},
+        to: { color: '#4e8174'},
 
         step: function(state, circle) {
 
