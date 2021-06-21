@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contextos - Serviços de Psicologia</title>
 </head>
+<form action="contextos-psicologia.php" method="post"></form>
 <body>
     <header>
         <div class="container" id="nav-container">
@@ -224,10 +225,10 @@
                         <p>Ou nos deixe uma mensagem:</p>
                     </div>
                     <div class="col-md-6" id="contact-form">
-                        <form action="">
-                            <input type="name" class="form-control" placeholder="Name" name="name">
-                            <input type="email" class="form-control" placeholder="E-mail" name="email">
-                            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                        <form action="database.php" method="post"><br>
+                            <input type="post" class="form-control" placeholder="Name" name="name">
+                            <input type="post" class="form-control" placeholder="E-mail" name="email">
+                            <input type="post" class="form-control" placeholder="Assunto" name="subject">
                             <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
                             <input type="submit" class="main-btn" value="Enviar">
                         </form>
@@ -278,7 +279,7 @@
     <!--Scripts internos-->
     <script type="text/javascript" src="assets/js/scripts.js"></script>
     <script type="text/javascript" src="assets/js/progressbar.min.js"></script>
-    <script type="text/javascript" src="assets/js/firebase.js"></script>
+    <!--<script type="text/javascript" src="assets/js/firebase.js"></script>-->
     <!--Parallax-->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 
@@ -287,9 +288,9 @@
 
     <!-- Firebase -->
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <!--<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>-->
 
 </body>
 </html>
