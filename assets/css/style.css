@@ -18,7 +18,7 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #4e8174;
+    background-color: #8BA3AB;
 }
 
 #nav-container {
@@ -89,7 +89,7 @@ header, .navbar {
 }
 
 .main-title {
-    color: #444;
+    color: #601F79;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -97,7 +97,7 @@ header, .navbar {
 
 .main-title::after {
     content: "";
-    border-top: 2px solid #333;
+    border-top: 2px solid #601F79;
     width: 15%;
     position: absolute;
     top: 60px;
@@ -106,7 +106,7 @@ header, .navbar {
 
 .about-title {
     font-size: 17px;
-    color: #444;
+    color: #601F79;
     text-transform: uppercase;
     font-weight: bold
 }
@@ -288,7 +288,7 @@ header, .navbar {
 /* Copy */
 
 #copy-area {
-    background-color: #4e8174;
+    background-color: #8BA3AB;
 }
 
 #copy-area .container {
