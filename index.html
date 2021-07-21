@@ -222,6 +222,7 @@
                     </div>
                     <div class="col-md-6" id="msg-box">
                         <p>Ou nos deixe uma mensagem:</p>
+                        <div class="alert">Sua mensagem foi enviada!</div>
                     </div>
                     <div class="col-md-6" id="contact-form">
                         <!--data base-->
@@ -230,7 +231,8 @@
                             <input type="email" class="form-control" placeholder="e-mail" name="email" id="email">
                             <input type="text" class="form-control" placeholder="assunto" name="subject" id="subject">
                             <textarea class="form-control" rows="3" placeholder="sua mensagem..." name="message" id="message"></textarea>
-                            <input type="submit" class="main-btn" value="Enviar">
+                            <button id="submitForm" type="submit" class="main-btn">Enviar</button>
+                            <!--<input id="submitForm" type="submit" class="main-btn" value="Enviar">-->
                         </form>
                     </div>
                 </div>
@@ -263,7 +265,8 @@
 
 
     <!-- Firebase -->
-
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script type="text/javascript" src="assets/js/firebaseConfig.js"></script>
 
 </body>
 </html>

@@ -255,6 +255,15 @@ header, .navbar {
 #msg-box p {
     font-size: 22px;
 }
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    display: none;
+}
 
 #contact-form input[type="text"], #contact-form[type="email"], #contact-form textarea {
     margin-bottom: 15px;
