@@ -46,10 +46,10 @@ function saveContactInfo(name, email, subject, message) {
 
   // Show alert
   function send(){ 
-      document.querySelector('.alert').style.display = '';
+      document.querySelector('.alert').style.display = 'block';
   }
 
-  // Hide alert after 3 seconds
+  // Hide alert after 2 seconds
   setTimeout(function(){
-    document.querySelector('.alert').style.display = '';
-  }, 3000);
+    document.querySelector('.alert').style.display = 'none';
+  }, 2000);
