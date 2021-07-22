@@ -222,18 +222,37 @@
                     </div>
                     <div class="col-md-6" id="msg-box">
                         <p>Ou nos deixe uma mensagem:</p>
-                        <div class="alert">Sua mensagem foi enviada!</div>
                     </div>
                     <div class="col-md-6" id="contact-form">
                         <!--data base-->
-                        <form id="contForm" action="">
+                        <form id="contactForm">
+                            <p>
+                              <input class="form-control" type="text" placeholder="Nome" name="name" id="name">
+                            </p>
+                            <p>
+                            <p>
+                              <input class="form-control" type="email" placeholder="Email" name="email" id="email">
+                            </p>
+                            <p>
+                              <input class="form-control" type="text" placeholder="Assunto" name="subject" id="subject">
+                            </p>
+                            <p class="full">
+                              <textarea class="form-control" placeholder="Sua mensagem..." name="message" rows="3" id="message"></textarea>
+                            </p>
+                            <p class="full">
+                              <button onclick="send()" class="main-btn" type="submit">Enviar</button>
+                              <div class="alert">Sua mensagem foi enviada!</div>
+                            </p>
+                          </form>
+
+                        <!--<form id="contForm" action="">
                             <input type="name" class="form-control" placeholder="nome" name="name" id="name">
                             <input type="email" class="form-control" placeholder="e-mail" name="email" id="email">
                             <input type="text" class="form-control" placeholder="assunto" name="subject" id="subject">
                             <textarea class="form-control" rows="3" placeholder="sua mensagem..." name="message" id="message"></textarea>
                             <button id="submitForm" type="submit" class="main-btn">Enviar</button>
-                            <!--<input id="submitForm" type="submit" class="main-btn" value="Enviar">-->
-                        </form>
+                            <!--<input id="submitForm" type="submit" class="main-btn" value="Enviar">--
+                        </form>-->
                     </div>
                 </div>
             </div>
@@ -265,8 +284,8 @@
 
 
     <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-    <script type="text/javascript" src="assets/js/firebaseConfig.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="assets/js/app.js"></script>
 
 </body>
 </html>
