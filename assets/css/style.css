@@ -257,10 +257,9 @@ header, .navbar {
 }
 .alert {
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     background: #79c879;
     color: white;
-    margin-bottom: 10px;
     border-radius: 30px;
 }
 
