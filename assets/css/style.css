@@ -262,7 +262,6 @@ header, .navbar {
     color: white;
     margin-bottom: 10px;
     border-radius: 30px;
-    display: none;
 }
 
 #contact-form input[type="text"], #contact-form[type="email"], #contact-form textarea {

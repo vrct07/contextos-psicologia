@@ -49,7 +49,7 @@ function saveContactInfo(name, email, subject, message) {
       document.querySelector('.alert').style.display = 'block';
   }
 
-  // Hide alert after 5 seconds
+  // Hide alert after 3 seconds
   setTimeout(function(){
     document.querySelector('.alert').style.display = 'none';
-  },5000);
+  }, 3000);

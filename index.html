@@ -227,32 +227,23 @@
                         <!--data base-->
                         <form id="contactForm">
                             <p>
-                              <input class="form-control" type="text" placeholder="Nome" name="name" id="name">
+                              <input class="form-control" type="text" placeholder="Nome" name="name" id="name" required>
                             </p>
                             <p>
                             <p>
-                              <input class="form-control" type="email" placeholder="Email" name="email" id="email">
+                              <input class="form-control" type="email" placeholder="Email" name="email" id="email" required>
                             </p>
                             <p>
-                              <input class="form-control" type="text" placeholder="Assunto" name="subject" id="subject">
+                              <input class="form-control" type="text" placeholder="Assunto" name="subject" id="subject" required>
                             </p>
                             <p class="full">
-                              <textarea class="form-control" placeholder="Sua mensagem..." name="message" rows="3" id="message"></textarea>
+                              <textarea class="form-control" placeholder="Sua mensagem..." name="message" rows="3" id="message" required></textarea>
                             </p>
                             <p class="full">
                               <button onclick="send()" class="main-btn" type="submit">Enviar</button>
                               <div class="alert">Sua mensagem foi enviada!</div>
                             </p>
                           </form>
-
-                        <!--<form id="contForm" action="">
-                            <input type="name" class="form-control" placeholder="nome" name="name" id="name">
-                            <input type="email" class="form-control" placeholder="e-mail" name="email" id="email">
-                            <input type="text" class="form-control" placeholder="assunto" name="subject" id="subject">
-                            <textarea class="form-control" rows="3" placeholder="sua mensagem..." name="message" id="message"></textarea>
-                            <button id="submitForm" type="submit" class="main-btn">Enviar</button>
-                            <!--<input id="submitForm" type="submit" class="main-btn" value="Enviar">--
-                        </form>-->
                     </div>
                 </div>
             </div>
